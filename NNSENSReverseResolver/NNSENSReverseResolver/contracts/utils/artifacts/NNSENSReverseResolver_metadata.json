@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_nns",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_ens",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "ens",
+				"outputs": [
+					{
+						"internalType": "contract ENS",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nns",
+				"outputs": [
+					{
+						"internalType": "contract ENS",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "resolve",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NNSENSReverseResolver/contracts/utils/NNSENSReverseResolver.sol": "NNSENSReverseResolver"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NNSENSReverseResolver/contracts/registry/ENS.sol": {
+			"keccak256": "0xf79be82c1a2eb0a77fba4e0972221912e803309081ca460fd2cf61653e55758a",
+			"urls": [
+				"bzz-raw://48ccbbafe4b0b04b4d44111b2487a4ccf75eeccb861f5259f3a7648ce373823b",
+				"dweb:/ipfs/QmRfnxzd48J7XmwrdbynQqKFZt9EpHVnKm1ePGBkAbK7qz"
+			]
+		},
+		"NNSENSReverseResolver/contracts/resolvers/profiles/IAddrResolver.sol": {
+			"keccak256": "0x2ad7f2fc60ebe0f93745fe70247f6a854f66af732483fda2a3c5e055614445e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://43922ba183ff20d87dce7fc5d715e626b26594151e36dcc8d7c6329b9a822963",
+				"dweb:/ipfs/QmTg9uHTugTxzqddN68gnhNbGt4bGJBS9mQcss6GYggR4X"
+			]
+		},
+		"NNSENSReverseResolver/contracts/resolvers/profiles/INameResolver.sol": {
+			"keccak256": "0x9ec392b612447b1acbdc01114f2da2837a658d3f3157f60a99c5269f0b623346",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b2cd9e5339b09f40e82bd91fed7d5f643dd031393eefb9aec588eaba8465049",
+				"dweb:/ipfs/QmT2A8eswhJU9YadCs9BtwKNj6YGypntXmFepANQYyGw7x"
+			]
+		},
+		"NNSENSReverseResolver/contracts/utils/ENSNamehash.sol": {
+			"keccak256": "0xa94ed9621f15837c069bb7619641420eb7f0c545b817f3f48b9c8bb1df7c88f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16d554016da2b7a7ccaba38153339972e98098f02f018fb649a9846e709e5c3e",
+				"dweb:/ipfs/QmUYa5RuvoXF9PN91brtovcrPXwcmRDwXGVfq6oo5TnPCH"
+			]
+		},
+		"NNSENSReverseResolver/contracts/utils/NNSENSReverseResolver.sol": {
+			"keccak256": "0x52bfbab20e2d7e2aae766d38ac9ee8d5141944e7bdff85278d52ac468180087b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b558b9844c35e0128f564af867af425471be37d7a3afb69b1e9eec506d5d532c",
+				"dweb:/ipfs/QmSBftm3UYLeYuguNsoc8SWK3KeNYAVLFFbVymwnESBQmA"
+			]
+		}
+	},
+	"version": 1
+}
